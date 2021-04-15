@@ -4,6 +4,9 @@
     text-rendering: optimizeLegibility;
 }
 
+/*8888888888888888888888888888888888888888888888888888888888888
+BANNER                                                       */
+
 #header{
     background-image: url("./img/fitness_banner_1.jpg");
     height: 80vh;
@@ -14,3 +17,44 @@
     float: right;
     color: #fff !important;
 }
+.navbar h1{
+    color: #fff;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 30px;
+   
+}
+.navbar-toggler{
+    border: none!important;
+    outline: none !important;
+}
+
+nav .fa-bars{
+    color: #fff;
+    font-size: 26px;
+}
+img{
+    background-color: #fff;
+}
+/*8888888888888888888888888888888888888888888888888888888888888
+Welcome                                                      */
+
+.welcome{
+    padding: 50px 100px;
+    margin-top: -140px;
+    background-color: #fff;
+    box-shadow:0 0 20px 7px rgba(0,0,0,0.2) ;
+}
+.welcome h1{
+    color: #333;
+}
+.welcome .home-btn{
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #013f7e;
+}
+.welcome .btn:focus{
+    box-shadow: none;
+}
+
